@@ -1,5 +1,6 @@
 import personalimg from "../assets/personalimg.png"
 import {MdKeyboardArrowRight} from "react-icons/md"
+import {Link} from "react-scroll"
 
 const Home = () => {
     return (
@@ -14,10 +15,10 @@ const Home = () => {
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eos dolorem exercitationem dolore facilis architecto! Quia, laborum. Culpa, repellat quo placeat temporibus recusandae quibusdam sunt deserunt architecto sequi id obcaecati numquam quisquam quas atque asperiores sint, maxime ab aperiam iste!
                 </p>
                 <div>
-                    <button className="group font-bold text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                    <Link to="portfolio" smooth duration={500} className="group font-bold text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                         portfolio <span className="group-hover:rotate-90 duration-300 "><MdKeyboardArrowRight  size={25} className="ml-2"></MdKeyboardArrowRight>
                             </span> 
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div>
