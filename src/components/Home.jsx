@@ -7,7 +7,7 @@ const Home = () => {
 
            <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full ">
-                <h2 className="text-4xl sm:text-7xl  font-bold text-white">
+                <h2 className="text-4xl sm:text-8xl  font-bold mt-20 text-white">
                     I'm a Full Stack Developer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md">
@@ -21,7 +21,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img className="rounded-2xl mx-auto sm:p-12 md:p-24 w-2/4 md:w-full" src={personalimg} alt="my profile" />
+                <img className="rounded-2xl mx-auto sm:m-12 md:p-14 w-2/4 md:w-full" src={personalimg} alt="my profile" />
             </div>
             </div> 
         </div>
