@@ -12,10 +12,10 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className="text-gray-500 py-4 max-w-md">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eos dolorem exercitationem dolore facilis architecto! Quia, laborum. Culpa, repellat quo placeat temporibus recusandae quibusdam sunt deserunt architecto sequi id obcaecati numquam quisquam quas atque asperiores sint, maxime ab aperiam iste!
+                My name is Md Mustakim . I am from Bangladesh . I am a student . Now i am studying BSc in Computer Science and Engineering .Beside my academic study, I am learning web development. Now I am beginner in this feild . Everyday I am learning something new to do something better in future . My dream is to become a best Web Developer one day Inshallah .
                 </p>
                 <div>
-                    <Link to="portfolio" smooth duration={500} className="group font-bold text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                    <Link to="portfolio" smooth duration={500} className="group font-bold text-white w-fit px-6 py-3 my-2  flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                         portfolio <span className="group-hover:rotate-90 duration-300 "><MdKeyboardArrowRight  size={25} className="ml-2"></MdKeyboardArrowRight>
                             </span> 
                     </Link>
