@@ -1,4 +1,4 @@
-import personalimg from "../assets/personalimg.png"
+import personalimg from "../assets/home/personalimg.png"
 import {MdKeyboardArrowRight} from "react-icons/md"
 import {Link} from "react-scroll"
 
