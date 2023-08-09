@@ -1,6 +1,6 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFacebook, BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
 
@@ -19,13 +19,23 @@ const SocialLinks = () => {
             id: 2,
             child: (
                 <>
+                    Facebook <BsFacebook size={30}></BsFacebook>
+                </>
+            ),
+            href: 'https://www.facebook.com/mustakim.mstk?mibextid=ZbWKwL',
+            
+        },
+        {
+            id: 3,
+            child: (
+                <>
                     GitHub <FaGithub size={30}></FaGithub>
                 </>
             ),
             href: 'https://github.com/mustakim10?tab=repositories'
         },
         {
-            id: 3,
+            id: 4,
             child: (
                 <>
                     Mail <HiOutlineMail size={30}></HiOutlineMail>
@@ -34,7 +44,7 @@ const SocialLinks = () => {
             href: 'mailto:md.mustakim2799@gmail.com'
         },
         {
-            id: 4,
+            id: 5,
             child: (
                 <>
                     Resume <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
