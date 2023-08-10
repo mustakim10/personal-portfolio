@@ -1,12 +1,14 @@
-import personalimg from "../assets/home/personalimg.png"
+import personalimg from "../assets/home/My project.png"
 import {MdKeyboardArrowRight} from "react-icons/md"
 import {Link} from "react-scroll"
+import {Helmet} from "react-helmet";
 
 const Home = () => {
     return (
+           
         <div name="home" className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white">
 
-           <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+           <div className="max-w-screen-lg mx-auto flex flex-col gap-12 items-center justify-center h-full px-4 md:flex-row">
             <div className="flex flex-col justify-center h-full ">
                 <h2 className="text-4xl sm:text-8xl  font-bold mt-20 text-white">
                     I'm a Full Stack Developer
@@ -22,10 +24,11 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img className="rounded-2xl mx-auto sm:m-12 md:p-14 w-2/4 md:w-full" src={personalimg} alt="my profile" />
+                <img className="rounded-full mx-auto hover:scale-150 duration-700 w-3/4" src={personalimg} alt="my profile" />
             </div>
             </div> 
         </div>
+        
     );
 };
 

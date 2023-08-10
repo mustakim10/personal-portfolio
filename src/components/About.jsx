@@ -1,21 +1,15 @@
 
 const About = () => {
     return (
-       
-            <div name="about" className="w-full hidden lg:flex flex-col md:pt-20 h-screen  bg-gradient-to-b from-gray-800 to-black text-white">
+     
+            <div name="about" className="w-full  h-screen  bg-gradient-to-b from-gray-800 to-black text-white">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
                 </div>
              
-             <h4 className="font-bold text-2xl">SSC in Science background</h4>
-                <h5 className="text-xl text-gray-300 font-bold my-2">Bogra Zilla School/2009-2017</h5>
-                <p className="text-gray-300">Bogura Zilla School is one the famous school in Bangladesh . I paased my PSC , JSC and SSC from this school . My results were Golden A+ in all public exams . ALong with education , many extra curriculars are taught here . I feel proud to studied in Bogra Zilla SChool . Bogua Zilla SChool is my passion</p>
-                <br />
-                <h4 className="font-bold text-2xl">HSC in Science background</h4>
-                <h5 className="text-xl text-gray-300 font-bold my-2">GOVT. Shah SUltan Collage , Bogura /2018-2019</h5>
-                <p className="text-gray-300">GOVT. Shah Sultan Collage is one the famous school in North Bangladesh . I paased HSC from this Collage . My result was aslo Golden A+ in this public exam . ALong with education , many extra curriculars are taught here . I feel proud to studied in Bogra here</p>
-                <br />
+          
+           
                 <h4 className="font-bold text-2xl">BSc is Computer Science & Engineering</h4>
                 <h5 className="text-xl text-gray-300 font-bold my-2">Running student</h5>
                 <p className="text-gray-300">I am a student of Southeast University . It is most popular University in Bangladesh mainland . There are most of the professors are Doctored and experiend .  ALong with education , many extra curriculars are taught here. I feel proud to study in this university. </p>

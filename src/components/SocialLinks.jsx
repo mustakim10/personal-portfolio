@@ -15,16 +15,7 @@ const SocialLinks = () => {
             href: 'https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmd-mustakim-540343247%3Ffbclid%3DIwAR2amV5iwepXlglIrMeSMWUxTrvetwVfXzW-_vnrnLo2kK8JslqhP9n1L5E&h=AT06BDt_5g2jtxUEZlGlasfCOEWL8ppQeSK0VQIQuP5lRwICxrwNgqMyV431AcVZ9u02tfxWVozyh0nxI_6VU4_RAUv0ucGSc2CRzUuy50MfefPpADHLrgBakLP1SuR4g4jWpJQTYS87AJ9Yg43dQg',
             style: 'rounded-tr-md'
         },
-        {
-            id: 2,
-            child: (
-                <>
-                    Facebook <BsFacebook size={30}></BsFacebook>
-                </>
-            ),
-            href: 'https://www.facebook.com/mustakim.mstk?mibextid=ZbWKwL',
-            
-        },
+        
         {
             id: 3,
             child: (
