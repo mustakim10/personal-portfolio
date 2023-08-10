@@ -14,13 +14,11 @@ const About = () => {
                 <h5 className="text-xl text-gray-300 font-bold my-2">Running student</h5>
                 <p className="text-gray-300">I am a student of Southeast University . It is most popular University in Bangladesh mainland . There are most of the professors are Doctored and experiend .  ALong with education , many extra curriculars are taught here. I feel proud to study in this university. </p>
                 <br />
-                <h4 className="font-bold text-2xl">Business Experience</h4>
-                <h5 className="text-xl text-gray-300 font-bold my-2">Duretion time 2013-2019</h5>
-                <p className="text-gray-300">When I was a student of class 6. That time I did Business of used mobile-phone . I bought mobile phone from several resource and sell them in my village area . It was my one of the hobby that time . Benifit of that I can use various mobile phone and sell them for profit . It was my side income beside my study. </p>
+                <h4 className="font-bold text-2xl">Web development</h4>
+                <h5 className="text-xl text-gray-300 font-bold my-2">Full Stack developer</h5>
+                <p className="text-gray-300">I am fresher in web development field. I have been trying to learn new things for last one year. During this time I have created some projects. I have used different technologies to create them. The technologies are: JavaScript, ES6, React Js, React Router, Node  .js , Expression.js, MondoDB, Rest API, JWT, , HTML5, CSS3 , Tailwind CSS , BOOTSTRAP5 etc .  Some of the tools used are: VS Code, GitHub, Netlify, Vercel, Figma, Chrome Dev Tools, NPM Packages etc.  Working with Redux, Next.js, Typescript.  Inshallah I will add some new projects very soon.  I try my best to do new things and learn new technologies. I like to learn new things, I like to do new things.</p>
                 <br />
-                <h4 className="font-bold text-2xl">Import Business experiance</h4>
-                <h5 className="text-xl text-gray-300 font-bold my-2">Duretion time 2020-running</h5>
-                <p className="text-gray-300">in 2019, I arrived China mainland to my higher education . Here beside my stuty , I did import from Chine to Bangladesh . I bought goods from China mainland and send them to Bangladesh . Doing this jod I got a great experiance . Still now I continue this job. </p>
+                
              
             </div>
         </div>

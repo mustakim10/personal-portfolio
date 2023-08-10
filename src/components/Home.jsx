@@ -1,7 +1,6 @@
 import personalimg from "../assets/home/My project.png"
 import {MdKeyboardArrowRight} from "react-icons/md"
 import {Link} from "react-scroll"
-import {Helmet} from "react-helmet";
 
 const Home = () => {
     return (

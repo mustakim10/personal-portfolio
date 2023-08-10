@@ -1,6 +1,8 @@
 import { FaGithub, FaLinkedin} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFacebook, BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { SiLeetcode } from "react-icons/si";
+
 
 const SocialLinks = () => {
 
@@ -29,13 +31,22 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
+                    leetcode <SiLeetcode size={30}></SiLeetcode>
+                </>
+            ),
+            href: 'https://leetcode.com/Mustakim2799/'
+        },
+        {
+            id: 5,
+            child: (
+                <>
                     Mail <HiOutlineMail size={30}></HiOutlineMail>
                 </>
             ),
             href: 'mailto:md.mustakim2799@gmail.com'
         },
         {
-            id: 5,
+            id: 6,
             child: (
                 <>
                     Resume <BsFillPersonLinesFill size={30}></BsFillPersonLinesFill>
